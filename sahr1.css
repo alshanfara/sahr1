@@ -1,10 +1,7 @@
-
-.broadcasters {
-
-     background-image: linear-gradient( 
-90deg ,#000000 0,#6a6868 10%,#020202 51%,#6a6868 89%,#000000 100%);
+ul.nav.nav-tabs>li.active>a {
+   
+    color: #f5c807;
 }
-
 
 a.label.label-primary.fl {
 auto;
@@ -14,9 +11,10 @@ div#l2 input#pass1, div#l2 input#u2, div#l3 input#pass2, div#l3 input#u3 {
     padding: 0!important;
     float: right;
     margin: 2px 5px 2px 0;
-     background-image: linear-gradient( 
+    background-image: linear-gradient( 
 90deg ,#000000 0,#6a6868 10%,#ffffff 51%,#6a6868 89%,#141414 100%);
-
+    border-radius: 150px 10px 150px 10px!important;
+    border: 1px solid #f5c807!important;
 }
 
 .border {border: 2px solid #ffffff!important;border-top: 1px solid #000!important;}
@@ -46,7 +44,8 @@ background-color:#000
 }
 
 
-ul.nav.nav-tabs>li>a {color:#fff;background-image: linear-gradient( 90deg ,#313030 0,#6a6868 10%,#020202 51%,#4e4d4d 89%,#181717 100%);}
+ul.nav.nav-tabs>li>a
+ {color:#fff;background-image: linear-gradient( 90deg ,#313030 0,#6a6868 10%,#020202 51%,#4e4d4d 89%,#181717 100%);}
 
 .label-primary, .btn-primary {
     background-color: #000!important;
@@ -119,6 +118,7 @@ div#tlogins ::-webkit-scrollbar-track:active {
     background: 0 0
 }
 div#tlogins ::-webkit-scrollbar-corner {
+   
     background: 0 0;
 }
 
