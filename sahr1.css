@@ -16,6 +16,7 @@
 
 
 .label-primary, .btn-primary {
+    border-color: #ffffff!important;
     background-color: #979696!important;
     border: 1px solid transparent;
 }
